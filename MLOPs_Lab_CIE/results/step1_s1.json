@@ -1,0 +1,18 @@
+{
+    "experiment_name": "fleettrack-fuel-cost",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 640.5037551030614,
+            "rmse": 672.0881892303212
+        },
+        {
+            "name": "RandomForest",
+            "mae": 724.2183999999991,
+            "rmse": 835.8934358241066
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "mae",
+    "best_metric_value": 640.5037551030614
+}
